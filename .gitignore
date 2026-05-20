@@ -1,0 +1,68 @@
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE & Editor
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+*~
+.sublime-project
+.sublime-workspace
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Dependencies
+vendor/
+node_modules/
+package-lock.json
+composer.lock
+
+# Local config overrides
+config.local.php
+db.local.php
+settings.local.php
+
+# Temporary files
+tmp/
+temp/
+cache/
+.cache
+
+# Build & Distribution
+dist/
+build/
+*.zip
+*.tar.gz
+
+# Database backups
+*.sql
+*.sql.bak
+*.sql.gz
+!store/dark_gaming.sql
+
+# Sensitive files
+private_keys/
+*.pem
+*.key
+
+# Browser files
+*.bak
+*.tmp
+
+# Session files
+sessions/
+*.session
+
+# Uploads (if any)
+uploads/
+user_data/
