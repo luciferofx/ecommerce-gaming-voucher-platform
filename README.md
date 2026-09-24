@@ -1,4 +1,4 @@
-# Dark Gaming Store 🎮
+# ecommerce-gaming-voucher-platform 🎮
 
 A full-stack e-commerce platform for selling gaming vouchers, prepaid cards, and digital payment keys with **DarkPay** - a secure UPI payment gateway integration.
 
@@ -6,7 +6,7 @@ A full-stack e-commerce platform for selling gaming vouchers, prepaid cards, and
 
 ## 📋 Project Overview
 
-**Dark Gaming Store** is a complete gaming card marketplace built with:
+**ecommerce-gaming-voucher-platform** is a complete gaming card marketplace built with:
 - **Backend**: PHP with PDO database abstraction
 - **Frontend**: Responsive HTML/CSS/JavaScript
 - **Payment Gateway**: DarkPay (Custom UPI integration)
@@ -156,7 +156,7 @@ Create a `.env` file in the root directory:
 ```ini
 # DarkPay Configuration
 DARKPAY_UPI_VPA=yourmerchant@bank
-DARKPAY_MERCHANT_NAME=Dark Gaming Store
+DARKPAY_MERCHANT_NAME=ecommerce-gaming-voucher-platform
 DARKPAY_WEBHOOK_SECRET=your-webhook-secret-key
 
 # Optional: Payment Provider
@@ -354,7 +354,7 @@ pscale connect ecommerce-gaming-voucher-platform
 ```bash
 git init
 git add .
-git commit -m "Initial commit: Dark Gaming Store with DarkPay"
+git commit -m "Initial commit: ecommerce-gaming-voucher-platform with DarkPay"
 git branch -M main
 git remote add origin https://github.com/yourusername/dark-gaming-store.git
 git push -u origin main
@@ -371,7 +371,7 @@ DB_NAME=ecommerce-gaming-voucher-platform
 
 # DarkPay Configuration
 DARKPAY_UPI_VPA=merchant@upi
-DARKPAY_MERCHANT_NAME=Dark Gaming Store
+DARKPAY_MERCHANT_NAME=ecommerce-gaming-voucher-platform
 DARKPAY_WEBHOOK_SECRET=change-this-in-production
 
 # Payment Providers (Optional)
