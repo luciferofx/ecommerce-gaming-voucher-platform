@@ -90,7 +90,7 @@ dark/
     ├── reviews.php            # Customer reviews
     ├── notifications.php      # Notifications system
     ├── success.php            # Order confirmation
-    ├── dark_gaming.sql        # Database schema
+    ├── ecommerce-gaming-voucher-platform.sql        # Database schema
     ├── includes/
     │   ├── db.php             # Database connection
     │   ├── header.php         # Navigation & layout
@@ -117,7 +117,7 @@ dark/
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/dark-gaming-store.git
+git clone https://github.com/luciferofx/ecommerce-gaming-voucher-platform.git
 cd dark-gaming-store
 ```
 
@@ -129,13 +129,13 @@ mysql -u root -p
 ```
 
 ```sql
-CREATE DATABASE dark_gaming;
-USE dark_gaming;
+CREATE DATABASE ecommerce-gaming-voucher-platform;
+USE ecommerce-gaming-voucher-platform;
 ```
 
 2. Import the schema:
 ```bash
-mysql -u root -p dark_gaming < store/dark_gaming.sql
+mysql -u root -p ecommerce-gaming-voucher-platform < store/ecommerce-gaming-voucher-platform.sql
 ```
 
 ### Step 3: Configure Database Connection
@@ -144,7 +144,7 @@ Edit `store/includes/db.php`:
 
 ```php
 $host = 'localhost';
-$db = 'dark_gaming';
+$db = 'ecommerce-gaming-voucher-platform';
 $user = 'root';              // Your MySQL username
 $password = '';              // Your MySQL password
 ```
@@ -327,8 +327,8 @@ The store supports USD, EUR, and INR currencies. Exchange rates are:
 ```bash
 npm install -g pscale
 pscale auth login
-pscale database create dark_gaming
-pscale connect dark_gaming
+pscale database create ecommerce-gaming-voucher-platform
+pscale connect ecommerce-gaming-voucher-platform
 # Use provided connection string in db.php
 ```
 
@@ -367,7 +367,7 @@ git push -u origin main
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=
-DB_NAME=dark_gaming
+DB_NAME=ecommerce-gaming-voucher-platform
 
 # DarkPay Configuration
 DARKPAY_UPI_VPA=merchant@upi
@@ -433,7 +433,7 @@ This project is licensed under the MIT License - see LICENSE file for details.
 
 ## 🤝 Support
 
-- 📧 Email: support@darkgaming.example
+- 📧 Email: luciferofx69@gmail.com
 - 🐛 Issues: GitHub Issues
 - 💬 Discussions: GitHub Discussions
 
